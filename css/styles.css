@@ -1,3 +1,5 @@
+.main-page {width: 1440px;
+height: 3300px;}
 body {font-family: 'Roboto', 'Raleway', sans-serif;
 color: #2E2F42 ;
 background-color: #ffffff;}
@@ -11,14 +13,14 @@ nav {font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;}
-.studio:hover .portfolio:hover .contacts:hover .studio:active {color: #404BBF;}
+.studio:hover, .portfolio:hover, .contacts:hover, .studio:active {color: #404BBF;}
  
 address {font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;}
-.mailto:hover .tel:hover {color: #404BBF;}
+.mailto:hover, .tel:hover, .mailto:focus, .tel:focus {color: #404BBF;}
 
 .hero-image {background-color: #2e2f42 ;
 width: 1440px;
