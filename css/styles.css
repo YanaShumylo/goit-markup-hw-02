@@ -24,7 +24,7 @@ color: #2e2f42;}
 .link-nav:hover {color: #404bbf;}
 .link-nav:focus {color: #404bbf;}
  
-.addres {font-style: normal;}
+.address {font-style: normal;}
 .link-address {
 font-size: 16px;
 line-height: 1.5;
@@ -114,7 +114,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 }
-
+.footer-span-logo {color: #f4f4fd;}
 
 
 
