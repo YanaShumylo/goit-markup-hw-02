@@ -1,10 +1,13 @@
 .body {font-family: 'Roboto', sans-serif;
-color: #43445542 ;
+color: #434455;
 background-color: #ffffff;}
 
+ul {list-style-type: none;}
 
-.logo {font-family: 'Raleway'
-color: #4D5AE5;
+a {text-decoration: none;}
+
+.logo {font-family: 'Raleway' sans-serif; 
+color:#4d5ae5;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
@@ -17,53 +20,67 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;}
-.menu-nav:hover a, .menu-nav:focus a {color: #404BBF;}
+.menu-nav:hover a, .menu-nav:focus a {color: #404bbf;}
  
-.address {
-font-style: normal
+.link-address {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;}
-.address:hover a, .address:focus, a {color: #404BBF;}
+.link-address:hover a, .link-address:hover:focus, a {color: #404BBF;}
 
-.hero-image {background-color: #2e2f42 ;
-}
-.title { color: #fff;}
+.section {background-color: #2e2f42;}
+.title {font-size: 56px;
+font-weight: bold;
+line-height: 1.07;
+letter-spacing: 2%;
+text-align: center;
+color: #fff;}
 .button { font-weight: medium;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-background: #4d5ae5; cursor: pointer; color: #ffffff;}
-.button:hover {#404BBF;}
+background-color: #4D5AE5; cursor: pointer; color: #ffffff;}
+.button:hover, .button:focus {background-color: #404BBF;}
 
-h1, title {font-size: 56px;
-font-weight: bold;
-line-height: 1.07;
-letter-spacing: 2%;}
 
-h2 {font-weight: bold;
+.title2 {font-weight: bold;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
+ text-align: center;
+text-transform: capitalize;
+color: #2e2f42;
 }
 
-h3 {font-weight: medium;
+.title3 {font-weight: 500; 
+font-weight: medium;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+color: #2e2f42;
 }
 
-ul {list-style-type: none;}
-
-a {text-decoration: none;}
-
-p {
+.text {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;}
 
+.ourteam {background-color: #F4F4FD;}
+.team-card {background-color: #FFFFFF;}
+
 .footer {background: #2e2f42;}
-.footer-text {color: #f4f4fd;}
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
+
+
+
+
+
